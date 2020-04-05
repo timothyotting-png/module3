@@ -1,0 +1,79 @@
+#header-nav{
+	background-color: grey;
+	border-radius: 0;
+  	border: 0;
+}
+
+
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Sans', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.Title {
+	text-align: center;
+	font-weight: bold;
+}
+
+#header-nav{
+	max-height: 200px;
+}
+.container{
+	max-height: 200px;
+	width: 100%;
+	transition: padding 500;
+}
+.navbar-toggle{
+	background-color: black;
+}
+.Text{
+	padding: 15px;
+	font-family: 'Sans', serif;
+}
+
+.text-center{
+	font-size: 25px;
+	font-weight: bold;
+}
+.Chicken{
+	background-color: grey;
+	font-family: 'Sans', serif;
+	font-weight: bold;
+}
+.Beef{
+	background-color: grey;
+	font-family: 'Sans', serif;
+	font-weight: bold;
+}
+.Sushi{
+	background-color: grey;
+	font-family: 'Sans', serif;
+	font-weight: bold;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+@media (min-width:768px){
+	#nav-list{
+		display: none;
+	}
+}
